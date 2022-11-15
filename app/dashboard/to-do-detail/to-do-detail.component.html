@@ -1,0 +1,20 @@
+<h2>To Do:</h2>
+<body>
+<!--THe ngif makes sure that only in case there are values-->
+<div  *ngIf="todo">
+  <h3>System:  {{ todo.Module }}</h3>
+  <p>Project Name: {{ todo.ProjectName }}</p>
+  <p>ID: {{ todo.id}}</p>
+  <label for="todo-name">Description: {{ todo.Description }}</label>
+</div>
+<div *ngIf="todo">
+  <button type="button" (click)="gotoToDoes()">Back</button>
+</div>
+
+<input type="text" id="todo-description" [(ngModel)]="editDescription" placeholder="Update Description"/>
+<div>
+  <button type="button" (click)="save()">Save</button>
+  <button type="button" (click)="cancel()">Cancel</button>
+</div>
+
+</body>

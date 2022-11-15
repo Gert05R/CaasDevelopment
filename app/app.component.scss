@@ -1,0 +1,184 @@
+
+/*.button {
+    box-shadow: inset 0 1px 0 0 #ffffff;
+    background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+    outline: 0;
+}*/
+
+.button1 {
+
+  position: relative;
+  top: 200px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Black */
+
+color: #A7A9AC;
+
+}
+
+.button2 {
+  position: relative;
+  top: 210px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Silver */
+
+color: #A7A9AC;
+
+}
+
+.button3 {
+  /* Audit log */
+  position: relative;
+  top: 220px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Silver */
+
+color: #A7A9AC;
+
+  }
+
+.button4 {
+  position: relative;
+top: 230px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Silver */
+
+color: #A7A9AC;
+  }
+
+.button5 {
+  position: relative;
+    top: 240px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Silver */
+
+color: #A7A9AC;
+  }
+
+.button6 {
+  position: relative;
+top: 250px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Primary / Silver */
+
+color: #A7A9AC;
+  }
+
+  .slide-button {
+    position: relative;
+    top: 550px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+
+    color: #A7A9AC;
+  }
+
+  .activebutton {
+    box-shadow: inset 0 1px 0 0 #dcecfb;
+    background: #ecfbfb linear-gradient(to bottom, #101412 5%, #ecfbfb 95%);
+    border-radius: 6px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #b852cc08;
+    outline: 0;
+
+}
+
+/* 02 - Homepage */
+
+.sidenav {
+
+  background: #ecfbfb;
+  border-radius: 5px;
+
+}
+
+.img-responsive {
+  position: absolute;
+width: 55px;
+height: 25px;
+left: 38px;
+top: 48px;
+
+}
+
+.sidenav-container  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
